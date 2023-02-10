@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+ 
+     <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+<body>
+  <div class="container">
+    <div class="div16">
+    <div class="flexcontainer">
+      <div class="div-1">
+        <div>
+          <img src="./images/card-logo.svg" alt="card-logo" class="imager">
+          <img src="./images/bg-card-front.png" alt="card-front" class="image">
+          <h1><span class="fere">0000</span><span class="fer">0000</span><span class="for">0000</span><span class="far">0000</span></h1>
+          <div class="flexa-container">
+            <div>
+              <p class="jane"> Jane Appleseed</p>
+            </div>
+            <div class="div-4">
+              <p class="zero" > 00/00</p>
+            </div>
+          </div>
+      
+        </div>
+        <div >
+          <img src="./images/bg-card-back.png" class="imagers">
+          <p class="zeros">000</p>
+        </div>
+      </div>
+      <div class="div-2">
+        <form action="aduser.php" id="form">
+          <div class="input-control ">
+            <label>CARDHOLDER NAME</label>
+            <br>
+            <input id="namer" type="text" name="CardHoldername" placeholder="e.g. Jane Appleseed" />
+            <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label >CARD NUMBER</label>
+                <br>
+              <input id="cardnumber" type="text" name="cardnumber" placeholder="e.g. 1234 5678 9123 0000">
+              <div class="error"></div>
+            </div>
+            
+        <div class="flexar-container">
+        <div class="box-1">
+          <div class="input-control ">
+            <label> Exp. Date (MM/YY)</label>
+            <br>
+            <div class="bocer">
+            <input id="expirydate" type="number" name="Expirydate" placeholder="MM" />
+            <div class="error"></div>
+            </div>
+            </div>
+        </div>
+        <div class="box-2">
+          <div class="input-control">
+            <label></label>
+            <br>
+            <div class="boccer">
+            <input id="expirysdate" type="text" name="Expirydate" placeholder="YY" />
+            <div class="error"></div>
+          </div>
+            </div>
+        </div>
+        <div class="box-3">
+          <div class="input-control">
+            <label>CVC</label>
+            <br>
+            <div class="boccer">
+           <input id="cvdate" type="text" name="CVdate" placeholder="e.g. 123" />
+            <div class="error"></div>
+            </div>
+            </div>
+        </div>
+        </div>
+            <div class="btn-primary">
+              <button  type="submit" class="btn" id="confirm">Confirm</button>
+
+            </div>
+        
+        </form>
+      </div>
+    </div>
+  </div>
+    <div class="div15 hidden">
+    <div class="flexcontainer" >
+      <div class="div-1">
+        <div>
+          <img src="./images/card-logo.svg" alt="card-logo" class="imager">
+          <img src="./images/bg-card-front.png" alt="card-front" class="image">
+          <h1><span class="fere">0000</span><span class="fer">0000</span><span class="for">0000</span><span class="far">0000</span></h1>
+          <div class="flexa-container">
+            <div>
+              <p class="jane"> Jane Appleseed</p>
+            </div>
+            <div class="div-4">
+              <p class="zero" > 00/00</p>
+            </div>
+          </div>
+      
+        </div>
+        <div >
+          <img src="./images/bg-card-back.png" class="imagers">
+          <p class="zeros">000</p>
+        </div>
+      </div>
+        <div class="div-2">
+          <div>
+            <div class="arrow">
+            <img src="./images/icon-complete.svg" alt="completeimage" class="complete">
+            <h2> Thank you!</h2>
+            <h3> We've added your card details</h3>
+          
+            <div class="buttons-div">
+              <button class="btns">Continue</button>
+            </div>
+    
+            </div>
+          </div>
+       
+        </div>
+      
+      </div>
+  </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,4807 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+--Lineargradien: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+--Red:hsl(0, 100%, 66%);
+--White: hsl(0, 0%, 100%);
+--Lightgrayishviolet: hsl(270, 3%, 87%);
+--Darkgrayishviolet: hsl(279, 6%, 55%);
+--Verydarkviolet: hsl(278, 68%, 11%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 500;
+    font-size: 1.8rem;
+    overflow-x: hidden;
+    
+
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+
+}
+.div-1{
+    width:30%;
+   /* height: 60rem;*/
+    height: 100vh;
+     
+   background-image: url(./images/bg-main-desktop.png);
+   background-size: cover;
+}
+.image{
+    position: relative;
+    top: 9rem;
+    left: 14rem;
+    width: 33rem;
+    height: 20rem;
+}
+h1{
+    position: relative;
+    font-size: 2rem;
+    left: 16rem;
+    top: 1rem;
+    z-index: 6;
+    color: var(--White);
+}
+.div-2{
+    width: 70%;
+    height:60rem;
+    background-color: var(--White);
+}
+.for{
+    word-spacing: 4rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: sans-serif;
+    }
+.fer{
+word-spacing: 4rem;
+margin-right: 2rem;
+letter-spacing: 0.2rem;
+font-family: sans-serif;
+}
+.fere{
+  word-spacing: 4rem;
+ margin-right: 2rem;
+letter-spacing:0.2rem;
+font-family: sans-serif;
+}
+.far{
+letter-spacing: 0.2rem;
+font-family: sans-serif;
+}
+.flexa-container{
+    display: flex;
+    flex-direction: row;
+    position:absolute ;
+    top: 26rem;
+    left: 16rem;
+    gap: 12rem;
+}
+.flexars-container{
+    display: flex;
+    flex-direction: row;
+    position:absolute ;
+    top: 79rem;
+    left: 16rem;
+    gap: 12rem;
+}
+.div-4{
+    align-items: flex-end;
+}
+.jane{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color:var(--White) ;
+    font-family: sans-serif;
+}
+.zero{
+    color: var(--White);
+    font-family: sans-serif;
+}
+.imagers{
+    position: relative;
+    top: 9rem;
+    left: 20rem;
+    width: 33rem;
+    height: 20rem;
+}
+
+.imager{
+   
+    position: absolute;
+width: 4%;
+height: 4%;
+top: 10rem;
+left: 16rem;
+z-index: 5;
+}
+
+
+.zeros{
+    position: absolute;
+    left: 46rem;
+    top: 41rem;
+    color: var(--White);
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    
+}
+.zeross{
+    position: absolute;
+    left:45rem;
+    top: 105rem;
+    color: var(--White);
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    
+}
+.complete{
+    margin-left: 38rem;
+    margin-top: 22rem;
+    width: 6rem;
+    height: 6rem;
+}
+h2{
+    margin-left:33rem ;
+    margin-top: 2rem;
+    text-transform: uppercase;
+   font-family: sans-serif;
+   color:var(--Verydarkviolet);
+   letter-spacing: 0.2rem;
+   font-weight: lighter;
+}
+h3{
+    margin-left: 31rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+ font-weight: bold;
+}
+#form{
+    margin-top: 16rem;
+    margin-left: 29rem;
+}
+label{
+    font-size: 1.4rem;
+    color: var(--Verydarkviolet);
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.input-control input{
+    width: 50%;
+    height: 3.2rem;
+    border: 1px solid var(--Lightgrayishviolet);
+    border-radius: 0.5rem;
+    margin-top: 1%;
+    font-size: 1.5rem;
+}
+.input-control{
+    padding-top: 3%;
+  
+}
+:placeholder-shown{
+    padding-left: 1rem;
+    color: green;
+    font-family: sans-serif;
+}
+.cardnumber{
+    margin-top: 8rem;
+}
+.flexar-container{
+    float: left;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: -5rem;
+}
+.box-1{
+    width: max-content;
+    float: left;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    
+}
+.box-2{
+    width: fit-content;
+    float: left;
+    margin-left: -14rem;
+    font-size: 1.5rem;
+    
+}
+.box-3{
+    width: fit-content;
+    float: left;
+    margin-left: -11rem;
+    font-size: 1.5rem;
+    width: 34%;
+    
+}
+.input-control input{
+    width: 50%;
+    height: 3.2rem;
+    border: 1px solid var(--Lightgrayishviolet);
+    border-radius: 0.5rem;
+    margin-top: 1%;
+    font-size: 1.8rem;
+}
+.btn-primary{
+    margin-top: 10rem;
+}
+.btn{
+    padding: 1rem;
+    width: 50%;
+    height: 20%;
+    border: none;
+    color: var(--White);
+    border-radius: 0.4rem;
+    background-color: var(--Verydarkviolet);
+}
+.buttons-div{
+    margin-top: 3rem;
+    margin-left: 28rem;
+}
+.btns{
+    padding: 1rem;
+    width: 50%;
+    height: 20%;
+    border: none;
+    background-color:var(--Verydarkviolet);
+    color: var(--White);
+    border-radius: 0.8rem;
+}
+.input-control input:focus{
+    outline: 0;
+}
+
+.success input{
+    border: 2px solid var(--Verydarkviolet);
+}
+.error input{
+    border: 2px solid var(--Red);
+}
+.error{
+    color: red;
+
+}
+.imagerss{
+    margin-left: 20rem;
+    margin-top: 17rem;
+}
+ .hidden{
+    display: none;
+}
+
+
+@media screen and  (min-width:761px) and (max-width:831px) {
+    .div-1{
+        width:25%;
+       /* height: 60rem;*/
+        height: 100vh;
+         
+       background-image: url(./images/bg-main-desktop.png);
+       background-size: cover;
+    }
+    .input-control input{
+        width: 60%;
+        height: 3.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 1rem;
+    }
+    .bocer{
+        margin-top: 7%;
+    }
+    .image{
+        position: relative;
+        top: 14rem;
+        left: 6rem;
+        width: 25rem;
+        height: 16rem;
+    }
+    .imagers{
+        position: relative;
+        top: 14rem;
+        left: 10rem;
+        width: 25rem;
+        height: 16rem;
+    }
+    h1{
+        position: relative;
+        font-size: 1.5rem;
+        left: 7.2rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 27rem;
+        left: 7.1rem;
+        gap: 12rem;
+    }
+    .flexars-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 79rem;
+        left: 8rem;
+        gap: 12rem;
+    }
+    .div-4{
+        align-items: flex-end;
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        font-size: 1rem;
+    } 
+    .imager{
+   
+        position: absolute;
+    width: 4%;
+    height: 4%;
+    top: 15rem;
+    left: 7.1rem;
+    z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left: 28rem;
+        top: 39rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+        
+    }
+    #form{
+        margin-top: 16rem;
+        margin-left: 23rem;
+    }
+   
+
+    .boccer{
+        margin-top: 17%;
+    }
+    .complete{
+        margin-left: 28rem;
+        margin-top: 15rem;
+        width: 8rem;
+        height: 8rem;
+    }.btn-primary{
+        margin-top: 13rem;
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 22rem;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .input-control input{
+        width: 80%;
+        height: 5.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 1.5rem;
+        border-radius: 0.7rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+    
+
+     
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -6rem;
+        font-size: 1.5rem;
+        width: 30%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        width: 30%;
+        
+    }
+    
+    .btn{
+        padding: 1.4rem;
+        width: 84%;
+        height: 20%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+
+    }
+    .btns{
+        padding: 1.4rem;
+        width: 84%;
+        height: 20%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+    }
+    
+    h2{
+        margin-left:24rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 24rem;
+        margin-top: 2rem;
+        font-size: 1.7rem;
+        font-family: sans-serif;
+    
+     font-weight: bold;
+     color: var(--Lightgrayishviolet);
+    }
+  
+}
+
+@media screen and (min-width:831px) and (max-width:883px) {
+    .bocer{
+        margin-top: 6%;
+    }
+    .input-control input{
+        width: 50%;
+        height: 3.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (min-width:831px) and (max-width:885px) {
+    .boccer{
+        margin-top: 17%;
+    }
+    .complete{
+        margin-left: 38rem;
+        margin-top: 15rem;
+        width: 8rem;
+        height: 8rem;
+    }.btn-primary{
+        margin-top: 13rem;
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 33rem;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .input-control input{
+        width: 80%;
+        height: 5.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 1.5rem;
+        border-radius: 0.7rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+
+     
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -6rem;
+        font-size: 1.5rem;
+        width: 30%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        width: 30%;
+        
+    }
+    
+    .btn{
+        padding: 1.4rem;
+        width: 84%;
+        height: 20%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+
+    }
+    .btns{
+        padding: 1.4rem;
+        width: 84%;
+        height: 20%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+    }
+    
+    h2{
+        margin-left:35rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 33rem;
+        margin-top: 2rem;
+        font-size: 1.7rem;
+        font-family: sans-serif;
+    
+     font-weight: bold;
+     color: var(--Lightgrayishviolet);
+    }
+}
+
+@media screen and (min-width:883px) and (max-width:942px) {
+    .boccer{
+        margin-top:17%;
+    }
+    .bocer{
+        margin-top: 7%;
+    }
+    .complete{
+        margin-left: 40rem;
+        margin-top: 15rem;
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media screen  and (min-width:885px)and (max-width:942px) {
+   
+    .complete{
+        margin-left: 40rem;
+        margin-top: 22rem;
+        width: 6rem;
+        height: 6rem;
+    }
+    .boccer{
+        margin-top: 15%;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .input-control input{
+        width: 80%;
+        height: 5.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 1.5rem;
+        border-radius: 0.7rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+
+     
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -6rem;
+        font-size: 1.5rem;
+        width: 30%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        width: 30%;
+        
+    }
+    .btn-primary{
+        margin-top: 13rem;
+    }
+    .btn{
+        padding: 1.4rem;
+        width: 84%;
+        height: 20%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 31rem;
+    }
+    .btns{
+        padding: 1.4rem;
+        width: 80%;
+        height: 20%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+    }
+    h2{
+        margin-left:35rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 31rem;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        font-family: sans-serif;
+     font-weight: bold;
+     font-weight: bold;
+    }
+}
+@media  screen and (min-width:942px) and (max-width:1000px) {
+
+    #form{
+    margin-top: 12rem;
+    margin-left: 29rem;
+}
+h1{
+    top: 1rem;
+}
+label{
+    font-size: 1.5rem;
+    color: var(--Verydarkviolet);
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.input-control input{
+    width: 80%;
+    height: 5.2rem;
+    border-radius: 0.5rem;
+    margin-top: 1%;
+    font-size: 1.5rem;
+    border-radius: 0.7rem;
+}
+.flexar-container{
+    float: left;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.box-1{
+    width: max-content;
+    float: left;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+
+ 
+    
+}
+.box-2{
+    width: fit-content;
+    float: left;
+    margin-left: -6rem;
+    font-size: 1.5rem;
+    width: 30%;
+    
+}
+.box-3{
+    width: fit-content;
+    float: left;
+    margin-left: -1rem;
+    font-size: 1.5rem;
+    width: 30%;
+    
+}
+.bocer{
+    margin-top: 4%;
+}
+.boccer{
+    margin-top: 9%;
+}
+.btn-primary{
+    margin-top: 13rem;
+}
+.btn{
+    padding: 1.4rem;
+    width: 84%;
+    height: 20%;
+    border: none;
+    color: var(--White);
+    border-radius: 0.8rem;
+    background-color: var(--Verydarkviolet);
+    font-size: 2rem;
+}
+.buttons-div{
+    margin-top: 3rem;
+    margin-left: 31rem;
+}
+.btns{
+    padding: 1.4rem;
+    width: 80%;
+    height: 20%;
+    border: none;
+    background-color:var(--Verydarkviolet);
+    color: var(--White);
+    border-radius: 0.8rem;
+    font-size: 2rem;
+}
+.complete{
+    margin-left: 38rem;
+    margin-top: 22rem;
+    width: 8rem;
+    height: 8rem;
+}
+h2{
+    margin-left:35rem ;
+    margin-top: 2rem;
+    text-transform: uppercase;
+   font-family: sans-serif;
+   color:var(--Verydarkviolet);
+   letter-spacing: 0.2rem;
+   font-weight: bold;
+}
+h3{
+    margin-left: 31rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+ font-weight: bold;
+ font-weight: bold;
+}
+}
+@media screen and (min-width:1000px)and (max-width:1024px) {
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .input-control input{
+        width: 80%;
+        height: 5.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 1.5rem;
+        border-radius: 0.7rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+
+     
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -6rem;
+        font-size: 1.5rem;
+        width: 30%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        width: 30%;
+        
+    }
+    .bocer{
+        margin-top: 4%;
+    }
+    .boccer{
+        margin-top: 9%;
+    }
+    .btn-primary{
+        margin-top: 13rem;
+    }
+    .btn{
+        padding: 1.4rem;
+        width: 84%;
+        height: 20%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 31rem;
+    }
+    .btns{
+        padding: 1.4rem;
+        width: 80%;
+        height: 20%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+    }
+    .complete{
+        margin-left: 38rem;
+        margin-top: 22rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    h2{
+        margin-left:35rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 31rem;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        font-family: sans-serif;
+     font-weight: bold;
+     font-weight: bold;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1026px) {
+    .image{
+        position: relative;
+        top: 13rem;
+        left: 13rem;
+        width: 33rem;
+        height: 20rem;
+    }
+    .imagers{
+        position: relative;
+        top: 14rem;
+        left: 17rem;
+        width: 33rem;
+        height: 20rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.3rem;
+        left: 14.7rem;
+        top: 4rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 29rem;
+        left: 14rem;
+        gap: 12rem;
+        letter-spacing: 0.2rem;
+    }
+    .flexars-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 69rem;
+        left: 13rem;
+        gap: 12rem;
+        
+    }
+    .div-4{
+        align-items: flex-end;
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+    }
+   
+    .imager{
+   
+        position: absolute;
+    width: 4%;
+    height: 4%;
+    top: 14rem;
+    left: 15rem;
+    z-index: 5;
+    }
+    
+    
+    .zeros{
+        position: absolute;
+        left: 42rem;
+        top: 46.2rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+        
+    }
+    .zeross{
+        position: absolute;
+        left:45rem;
+        top: 105rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        
+    }
+    .complete{
+        margin-left: 38rem;
+        margin-top: 22rem;
+        width: 6rem;
+        height: 6rem;
+    }
+    h2{
+        margin-left:33rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 31rem;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        font-family: sans-serif;
+        color: var(--Darkgrayishviolet);
+        font-weight: bold;
+    }
+    #form{
+        margin-top: 15rem;
+        margin-left: 29rem;
+    }
+    label{
+        font-size: 1.8rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .input-control input{
+        width: 86%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .input-control{
+        padding-top: 3%;
+      
+    }
+    :placeholder-shown{
+        padding-left: 1rem;
+        color: green;
+        font-family: sans-serif;
+    }
+    .cardnumber{
+        margin-top: 8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 50%;
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -5rem;
+        font-size: 1.5rem;
+        width: 30%;
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        width: 30%;
+    }
+    .boccer{
+        margin-top: 12%;
+    }
+    .bocer{
+        margin-top: 6%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+    }
+    .btn{
+        padding: 1.5rem;
+        width: 87%;
+        height: 20%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 28rem;
+    }
+    .btns{
+        padding: 1rem;
+        width: 80%;
+        height: 20%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+    }
+   
+    
+    
+}
+
+@media screen and (min-width:1026px) and (max-width:1099px) {
+    .div-1{
+        width:30%;
+       /* height: 60rem;*/
+        height: 100vh;
+         
+       background-image: url(./images/bg-main-desktop.png);
+       background-size: cover;
+    }
+    .image{
+        position: relative;
+        top: 17rem;
+        left: 14rem;
+        width: 33rem;
+        height: 20rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.3rem;
+        left: 15.4rem;
+        top: 8rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .div-2{
+        width: 70%;
+        height:60rem;
+        background-color: var(--White);
+    }
+    .for{
+        word-spacing: 4rem;
+        margin-right: 2rem;
+        letter-spacing: 0.2rem;
+        font-family: sans-serif;
+        }
+    .fer{
+    word-spacing: 4rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: sans-serif;
+    }
+    .fere{
+      word-spacing: 4rem;
+     margin-right: 2rem;
+    letter-spacing:0.2rem;
+    font-family: sans-serif;
+    }
+    .far{
+    letter-spacing: 0.2rem;
+    font-family: sans-serif;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 33rem;
+        left: 15rem;
+        gap: 10rem;
+        letter-spacing: 0.2rem;
+    }
+    .flexars-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 79rem;
+        left: 16rem;
+        gap: 12rem;
+    }
+    .div-4{
+        align-items: flex-end;
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+    }
+    .imager{
+       
+        position: absolute;
+    width: 4%;
+    height: 4%;
+    top: 18rem;
+    left: 16rem;
+    z-index: 5;
+    }
+    
+    .imagers{
+        position: relative;
+        top: 18rem;
+        left: 20rem;
+        width: 33rem;
+        height: 20rem;
+    }
+    
+    .zeros{
+        position: absolute;
+        left: 46rem;
+        top: 50rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+        
+    }
+    .zeross{
+        position: absolute;
+        left:45rem;
+        top: 105rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        
+    }
+    .complete{
+        margin-left: 38rem;
+        margin-top: 24rem;
+        width: 9rem;
+        height: 9rem;
+    }
+    h2{
+        margin-left:34rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 31rem;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        color: var(--Darkgrayishviolet);
+        font-weight: bold;
+    }
+    #form{
+        margin-top: 21rem;
+        margin-left: 29rem;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .input-control input{
+        width: 86%;
+        height: 5.2rem;
+        border-radius: 0.4rem;
+        margin-top: 1%;
+        font-size: 2.3rem;
+        border-radius: 0.8rem;
+    }
+    .input-control{
+        padding-top: 3%;
+      
+    }
+
+    :placeholder-shown{
+        padding-left: 1rem;
+        color: green;
+        font-family: sans-serif;
+    }
+    .cardnumber{
+        margin-top: 8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 40%;
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -5rem;
+        font-size: 1.5rem;
+        width: 30%;
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        width: 30%;
+    }
+    .boccer{
+        margin-top: 9%;
+    }
+    .bocer{
+        margin-top: 6%;
+    }
+    .btn-primary{
+        margin-top: 14rem;
+    }
+    .btn{
+        padding: 2rem;
+        width: 89%;
+        height: 20%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 1rem;
+        font-size: 2rem;
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 24rem;
+    }
+    .btns{
+        padding: 2rem;
+        width: 80%;
+        height: 20%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 1rem;
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:1025px) {
+    
+}
+@media screen and (min-width:1100px) and (max-width:1200px) {
+    .div-1{
+        width:30%;
+       /* height: 60rem;*/
+        height: 100vh;
+         
+       background-image: url(./images/bg-main-desktop.png);
+       background-size: cover;
+    }
+    .boccer{
+        margin-top: 7%;
+    }
+    .bocer{
+        margin-top: 3%;
+    }
+    .image{
+        position: relative;
+        top: 13rem;
+        left: 14rem;
+        width: 35rem;
+        height: 22rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.4rem;
+        left: 16rem;
+        top: 3rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .div-2{
+        width: 70%;
+        height:60rem;
+        background-color: var(--White);
+    }
+    .for{
+        word-spacing: 4rem;
+        margin-right: 2rem;
+        letter-spacing: 0.2rem;
+        font-family: sans-serif;
+        }
+    .fer{
+    word-spacing: 4rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: sans-serif;
+    }
+    .fere{
+      word-spacing: 4rem;
+     margin-right: 2rem;
+    letter-spacing:0.2rem;
+    font-family: sans-serif;
+    }
+    .far{
+    letter-spacing: 0.2rem;
+    font-family: sans-serif;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 31rem;
+        left: 16rem;
+        gap: 12rem;
+        letter-spacing: 0.2rem;
+    }
+    .div-4{
+        align-items: flex-end;
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+    }
+    .imager{
+       
+        position: absolute;
+    width: 4%;
+    height: 4%;
+    top: 15rem;
+    left: 16rem;
+    z-index: 5;
+    }
+    
+    .imagers{
+        position: relative;
+        top: 14rem;
+        left: 20rem;
+        width: 35rem;
+        height: 22rem;
+    }
+    
+    .zeros{
+        position: absolute;
+        left: 46rem;
+        top: 49rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+        font-size: 2.4rem;
+    }
+    .complete{
+        margin-left: 44rem;
+        margin-top: 23rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:40rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+       font-size: 3rem;
+    }
+    h3{
+        margin-left: 36rem;
+        margin-top: 2rem;
+        font-size: 2.4rem;
+        font-family: sans-serif;
+        color: var(--Darkgrayishviolet);
+        font-weight: bold;
+    }
+    #form{
+        margin-top: 19rem;
+        margin-left: 29rem;
+    }
+    label{
+        font-size: 2rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .input-control input{
+        width: 75%;
+        height: 5.2rem;
+        border-radius: 0.4rem;
+        margin-top: 1%;
+        font-size: 2rem;
+    }
+    .input-control{
+        padding-top: 3%;
+      
+    }
+    .boccer{
+        margin-top: 4%;
+    }
+    :placeholder-shown{
+        padding-left: 1rem;
+        color: green;
+        font-family: sans-serif;
+    }
+    .cardnumber{
+        margin-top: 8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: 2.6rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 32rem;
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -10rem;
+        font-size: 1.5rem;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -5rem;
+        font-size: 1.5rem;
+        
+    }
+    .btn-primary{
+        margin-top: 14rem;
+    }
+    .btn{
+        padding: 2rem;
+        width: 84%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 1rem;
+        font-size: 2.5rem;
+    }
+    .buttons-div{
+        margin-top: 5rem;
+        margin-left: 30rem;
+    }
+    .btns{
+        padding: 2rem;
+        width: 88%;
+        height: 20%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 1rem;
+        font-size: 2.3rem;
+    }
+    
+}
+@media screen and (min-width:1200px) and (max-width:1226px) {
+    .div-1{
+        width:30%;
+       /* height: 60rem;*/
+        height: 100vh;
+         
+       background-image: url(./images/bg-main-desktop.png);
+       background-size: cover;
+    }
+    .image{
+        position: relative;
+        top: 19rem;
+        left: 14rem;
+        width: 35rem;
+        height: 22rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.4rem;
+        left: 16rem;
+        top: 9rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .div-2{
+        width: 70%;
+        height:60rem;
+        background-color: var(--White);
+    }
+    .for{
+        word-spacing: 4rem;
+        margin-right: 2rem;
+        letter-spacing: 0.2rem;
+        font-family: sans-serif;
+        }
+    .fer{
+    word-spacing: 4rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: sans-serif;
+    }
+    .fere{
+      word-spacing: 4rem;
+     margin-right: 2rem;
+    letter-spacing:0.2rem;
+    font-family: sans-serif;
+    }
+    .far{
+    letter-spacing: 0.2rem;
+    font-family: sans-serif;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 37rem;
+        left: 16rem;
+        gap: 12rem;
+        letter-spacing: 0.2rem;
+    }
+    .div-4{
+        align-items: flex-end;
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+    }
+    .imager{
+       
+        position: absolute;
+    width: 4%;
+    height: 4%;
+    top: 22rem;
+    left: 16rem;
+    z-index: 5;
+    }
+    
+    .imagers{
+        position: relative;
+        top: 21rem;
+        left: 20rem;
+        width: 35rem;
+        height: 22rem;
+    }
+    
+    .zeros{
+        position: absolute;
+        left: 46rem;
+        top: 56rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+        font-size: 2.4rem;
+    }
+    .complete{
+        margin-left: 40rem;
+        margin-top: 29rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:33rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+       font-size: 3rem;
+    }
+    h3{
+        margin-left: 28rem;
+        margin-top: 2rem;
+        font-size: 2.4rem;
+        font-family: sans-serif;
+        color: var(--Darkgrayishviolet);
+        font-weight: bold;
+    }
+    #form{
+        margin-top: 25rem;
+        margin-left: 29rem;
+    }
+    label{
+        font-size: 2rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .input-control input{
+        width: 75%;
+        height: 5.2rem;
+        border-radius: 0.4rem;
+        margin-top: 1%;
+        font-size: 1.5rem;
+    }
+    .input-control{
+        padding-top: 3%;
+      
+    }
+    :placeholder-shown{
+        padding-left: 1rem;
+        color: green;
+        font-family: sans-serif;
+    }
+    .cardnumber{
+        margin-top: 8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: 2.6rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -10rem;
+        font-size: 1.5rem;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -5rem;
+        font-size: 1.5rem;
+        
+    }
+    .btn-primary{
+        margin-top: 14rem;
+    }
+    .btn{
+        padding: 2rem;
+        width: 84%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 1rem;
+        font-size: 2.5rem;
+    }
+    .buttons-div{
+        margin-top: 5rem;
+        margin-left: 22rem;
+    }
+    .btns{
+        padding: 2rem;
+        width: 80%;
+        height: 20%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 1rem;
+        font-size: 2.5rem;
+    }
+  
+}
+@media  screen and (min-width:1440px) {
+    .div-1{
+        width:40%;
+       /* height: 60rem;*/
+        height: 100vh;
+         
+       background-image: url(./images/bg-main-desktop.png);
+       background-size: cover;
+    }
+    .success input{
+        border: 2px solid var(--Verydarkviolet);
+    }
+    .error input{
+        border: 2px solid var(--Red);
+    }
+
+    
+ .image{
+    position: relative;
+    top: 17rem;
+    left: 23rem;
+    width: 40rem;
+    height: 26rem;
+}
+h1{
+    position: relative;
+    font-size: 3rem;
+    left: 25rem;
+    top: 5rem;
+    z-index: 6;
+    color: var(--White);
+}
+.flexars-container{
+    display: flex;
+    flex-direction: row;
+    position:absolute ;
+    top: 120rem;
+    left: 16rem;
+    gap: 12rem;
+}
+.flexa-container{
+    display: flex;
+    flex-direction: row;
+    position:absolute ;
+    top: 38rem;
+    left: 24rem;
+    gap: 12rem;
+}
+.div-4{
+    align-items: flex-end;
+}
+.jane{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color:var(--White) ;
+    font-family: sans-serif;
+}
+.zero{
+    color: var(--White);
+    font-family: sans-serif;
+}
+.imager{
+
+position: absolute;
+width: 5%;
+height: 5%;
+top: 21rem;
+left: 24rem;
+z-index: 5;
+}
+.imagers{
+    position: relative;
+    top: 19rem;
+    left: 32rem;
+    width: 40rem;
+    height: 26rem;
+}
+.zeros{
+    position: absolute;
+    left: 62rem;
+    top: 60rem;
+    color: var(--White);
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    
+}
+#form{
+    margin-top: 23rem;
+    margin-left: 32rem;
+}
+label{
+    font-size: 2rem;
+    color: var(--Verydarkviolet);
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.input-control input{
+    width: 70%;
+    height: 6.2rem;
+ 
+    border-radius: 0.4rem;
+    margin-top: 1%;
+    font-size: 2rem;
+}
+.input-control{
+    padding-top: 5%;
+  
+}
+
+.flexar-container{
+    float: left;
+    margin-top:3%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+.box-1{
+    width: max-content;
+    float: left;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+
+    
+}
+
+.box-2{
+    width: fit-content;
+    float: left;
+    margin-left: -10rem;
+    font-size: 1.5rem;
+    
+}
+.box-3{
+    width: fit-content;
+    float: left;
+    margin-left: -7rem;
+    font-size: 1.5rem;        
+}
+.btn-primary{
+    margin-top: 17rem;
+}
+.btn{
+    padding: 2rem;
+    width: 80%;
+    height: 20%;
+    border: none;
+    background-color:var(--Verydarkviolet);
+    color: var(--White);
+    border-radius: 0.4rem;
+    font-size: 2rem;
+}
+.error{
+    font-size: 2rem;
+}
+.bocer{
+    margin-top: 2%;
+}
+.complete{
+    margin-left: 43rem;
+    margin-top: 26rem;
+    width: 12rem;
+    height: 12rem;
+}
+h2{
+    margin-left:40rem ;
+    margin-top: 2rem;
+    text-transform: uppercase;
+   font-family: sans-serif;
+   color:var(--Verydarkviolet);
+   letter-spacing: 0.2rem;
+   font-weight: bold;
+   font-size: 3rem;
+}
+h3{
+    margin-left: 40rem;
+    margin-top: 2rem;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    color: var(--Darkgrayishviolet);
+    font-weight: bold;
+}
+.buttons-div{
+    margin-top: 5rem;
+    margin-left: 35rem;
+}
+.btns{
+    padding: 2rem;
+    width: 80%;
+    height: 30%;
+    border: none;
+    background-color:var(--Verydarkviolet);
+    color: var(--White);
+    border-radius: 0.4rem;
+    font-size: 2rem;
+}
+    
+}
+@media screen and (min-width:1300px) and (max-width:1440px) {
+    .div-1{
+        width:40%;
+       /* height: 60rem;*/
+        height: 100vh;
+         
+       background-image: url(./images/bg-main-desktop.png);
+       background-size: cover;
+    }
+    .success input{
+        border: 2px solid var(--Verydarkviolet);
+    }
+    .error input{
+        border: 2px solid var(--Red);
+    }
+
+    
+ .image{
+    position: relative;
+    top: 17rem;
+    left: 23rem;
+    width: 40rem;
+    height: 26rem;
+}
+h1{
+    position: relative;
+    font-size: 3rem;
+    left: 25rem;
+    top: 5rem;
+    z-index: 6;
+    color: var(--White);
+}
+.flexars-container{
+    display: flex;
+    flex-direction: row;
+    position:absolute ;
+    top: 120rem;
+    left: 16rem;
+    gap: 12rem;
+}
+.flexa-container{
+    display: flex;
+    flex-direction: row;
+    position:absolute ;
+    top: 38rem;
+    left: 24rem;
+    gap: 12rem;
+}
+.div-4{
+    align-items: flex-end;
+}
+.jane{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color:var(--White) ;
+    font-family: sans-serif;
+}
+.zero{
+    color: var(--White);
+    font-family: sans-serif;
+}
+.imager{
+
+position: absolute;
+width: 5%;
+height: 5%;
+top: 21rem;
+left: 24rem;
+z-index: 5;
+}
+.imagers{
+    position: relative;
+    top: 19rem;
+    left: 32rem;
+    width: 40rem;
+    height: 26rem;
+}
+.zeros{
+    position: absolute;
+    left: 62rem;
+    top: 60rem;
+    color: var(--White);
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    
+}
+#form{
+    margin-top: 15rem;
+    margin-left: 32rem;
+}
+label{
+    font-size: 2rem;
+    color: var(--Verydarkviolet);
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.input-control input{
+    width: 70%;
+    height: 6.2rem;
+ 
+    border-radius: 0.4rem;
+    margin-top: 1%;
+    font-size: 2rem;
+}
+.input-control{
+    padding-top: 5%;
+  
+}
+
+.flexar-container{
+    float: left;
+    margin-top:3%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+.box-1{
+    width: max-content;
+    float: left;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+
+    
+}
+
+.box-2{
+    width: fit-content;
+    float: left;
+    margin-left: -10rem;
+    font-size: 1.5rem;
+    
+}
+.box-3{
+    width: fit-content;
+    float: left;
+    margin-left: -7rem;
+    font-size: 1.5rem;        
+}
+.btn-primary{
+    margin-top: 17rem;
+}
+.btn{
+    padding: 2rem;
+    width: 80%;
+    height: 20%;
+    border: none;
+    background-color:var(--Verydarkviolet);
+    color: var(--White);
+    border-radius: 0.4rem;
+    font-size: 2rem;
+}
+.error{
+    font-size: 2rem;
+}
+.bocer{
+    margin-top: 2%;
+}
+.complete{
+    margin-left: 43rem;
+    margin-top: 26rem;
+    width: 12rem;
+    height: 12rem;
+}
+h2{
+    margin-left:40rem ;
+    margin-top: 2rem;
+    text-transform: uppercase;
+   font-family: sans-serif;
+   color:var(--Verydarkviolet);
+   letter-spacing: 0.2rem;
+   font-weight: bold;
+   font-size: 3rem;
+}
+h3{
+    margin-left: 40rem;
+    margin-top: 2rem;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    color: var(--Darkgrayishviolet);
+    font-weight: bold;
+}
+.buttons-div{
+    margin-top: 5rem;
+    margin-left: 35rem;
+}
+.btns{
+    padding: 2rem;
+    width: 80%;
+    height: 30%;
+    border: none;
+    background-color:var(--Verydarkviolet);
+    color: var(--White);
+    border-radius: 0.4rem;
+    font-size: 2rem;
+}
+}
+@media screen  and (min-width:1285px)and  (max-width:1350px) {
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 30rem;
+    
+        
+    }
+    .boccer{
+        margin-top: 4%;
+    }
+    .boccer{
+        margin-top: 3%;
+    }
+    
+}
+@media screen and (min-width:1285px) and (max-width:1300px) {
+    .div-1{
+        width:30%;
+       /* height: 60rem;*/
+        height: 100vh;
+         
+       background-image: url(./images/bg-main-desktop.png);
+       background-size: cover;
+    }
+    .image{
+        position: relative;
+        top: 19rem;
+        left: 15rem;
+        width: 41rem;
+        height: 26rem;
+    }
+    h1{
+        position: relative;
+        font-size: 3rem;
+        left: 17.4rem;
+        top: 7rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .flexars-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 120rem;
+        left: 16rem;
+        gap: 12rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 40rem;
+        left: 16rem;
+        gap: 12rem;
+        letter-spacing: 0.2rem;
+
+    }
+    .div-4{
+        align-items: flex-end;
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 2rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+    }
+    .imager{
+
+        position: absolute;
+        width: 5%;
+        height: 5%;
+        top: 21rem;
+        left: 17rem;
+        z-index: 5;
+        }
+        .imagers{
+            position: relative;
+            top: 19rem;
+            left: 22rem;
+            width: 41rem;
+            height: 26rem;
+        }
+        .zeros{
+            position: absolute;
+            left: 53rem;
+            top: 60rem;
+            color: var(--White);
+            font-family: sans-serif;
+            letter-spacing: 0.2rem;
+            font-size: 3rem;
+            
+        }
+        #form{
+            margin-top: 26rem;
+            margin-left: 32rem;
+        }
+        label{
+            font-size: 2rem;
+            color: var(--Verydarkviolet);
+            letter-spacing: 0.2rem;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .input-control input{
+            width: 70%;
+            height: 6.2rem;
+         
+            border-radius: 0.4rem;
+            margin-top: 1%;
+            font-size: 2rem;
+        }
+        .input-control{
+            padding-top: 5%;
+          
+        }
+        
+        .flexar-container{
+            float: left;
+            margin-top:3%;
+            gap: 2rem;
+            display: flex;
+            flex-direction: row;
+           
+        }
+        .box-1{
+            width: max-content;
+            float: left;
+            margin-right: 3rem;
+            font-size: 1.5rem;
+            width: 27rem;
+        
+            
+        }
+        
+        .box-2{
+            width: fit-content;
+            float: left;
+            margin-left: -10rem;
+            font-size: 1.5rem;
+            
+        }
+        .box-3{
+            width: fit-content;
+            float: left;
+            margin-left: -7rem;
+            font-size: 1.5rem;        
+        }
+        .btn-primary{
+            margin-top: 17rem;
+        }
+        .btn{
+            padding: 2rem;
+            width: 80%;
+            height: 20%;
+            border: none;
+            background-color:var(--Verydarkviolet);
+            color: var(--White);
+            border-radius: 0.4rem;
+            font-size: 2rem;
+        }
+        .bocer{
+            margin-top: 3%;
+        }
+
+        .complete{
+            margin-left: 43rem;
+            margin-top: 26rem;
+            width: 12rem;
+            height: 12rem;
+        }
+        h2{
+            margin-left:40rem ;
+            margin-top: 2rem;
+            text-transform: uppercase;
+           font-family: sans-serif;
+           color:var(--Verydarkviolet);
+           letter-spacing: 0.2rem;
+           font-weight: bold;
+           font-size: 3rem;
+        }
+        h3{
+            margin-left: 40rem;
+            margin-top: 2rem;
+            font-size: 1.9rem;
+            font-family: sans-serif;
+            color: var(--Darkgrayishviolet);
+            font-weight: bold;
+        }
+        .buttons-div{
+            margin-top: 8rem;
+            margin-left: 35rem;
+        }
+        .btns{
+            padding: 2rem;
+            width: 80%;
+            height: 30%;
+            border: none;
+            background-color:var(--Verydarkviolet);
+            color: var(--White);
+            border-radius: 0.4rem;
+            font-size: 2rem;
+        }
+}
+@media screen and (max-width:400px) {
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:52rem;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+       
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 7rem;
+        width: 31rem;
+        height: 20rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -20rem;
+        left: 12rem;
+        width: 31rem; 
+        height: 20rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100vw;
+        height:60%;
+        background-color: var(--White);
+    }
+   
+    label{
+        font-size: 1.2rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 10rem;
+        margin-left: 3rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2rem;
+        left: 8.7rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.4rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 32rem;
+        left: 2rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:30rem;
+        top: 12rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 4rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 93%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 48%;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 25%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 0.3rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 28%;
+        
+    }
+    .boccer{
+        margin-top:4%;
+    }
+    .bocer{
+        margin-top: 8%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 98%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 13rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:11rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 8rem;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 87%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    
+}
+@media screen and (max-width:415px) {
+    .boccer{
+        margin-top: 8%;
+    }
+    
+}
+@media screen and (min-width:400px)and (max-width:436px) {
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:52rem;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+       
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 7rem;
+        width: 31rem;
+        height: 20rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -20rem;
+        left: 12rem;
+        width: 33rem; 
+        height: 22rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100vw;
+        height:60%;
+        background-color: var(--White);
+    }
+   
+    label{
+        font-size: 1.2rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 10rem;
+        margin-left: 3rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2rem;
+        left: 8.7rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.4rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 32rem;
+        left: 4rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:33rem;
+        top: 13rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 4rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 93%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 48%;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 25%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 0.3rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 28%;
+        
+    }
+    .boccer{
+        margin-top:7%;
+    }
+    .bocer{
+        margin-top: 7.5%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 98%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 16rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:15rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 11rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 87%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+   
+}
+@media screen and (min-width:436px) and (max-width:455px) {
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:100%;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 5rem;
+        width: 31rem;
+        height: 20rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -20rem;
+        left: 9rem;
+        width: 33rem; 
+        height: 22rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100%;
+        height:60%;
+        background-color: var(--White);
+    }
+   
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 10rem;
+        margin-left: 3rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2rem;
+        left: 7rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.3rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 32rem;
+        left: 6.8rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:35rem;
+        top: 13rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 8rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 97%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 45%;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -3rem;
+        font-size: 1.5rem;
+        width: 28%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 0.4rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 28%;
+        
+    }
+    .boccer{
+        margin-top:4%;
+    }
+    .bocer{
+        margin-top: 12%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 98%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 16rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:15rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 11rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 87%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    body{
+        overflow-x: hidden;
+    }
+    
+}
+@media screen  and (min-width:455px)and (max-width:461px){
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:100%;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 5rem;
+        width: 33rem;
+        height: 23rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -23rem;
+        left: 10rem;
+        width: 33rem; 
+        height: 22rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100%;
+        height:60%;
+        background-color: var(--White);
+    }
+    #form{
+        margin-top: 27rem;
+        margin-left: 25rem;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 14rem;
+        margin-left: 6rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.2rem;
+        left: 7.2rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.5rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 35rem;
+        left: 7.2rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:36rem;
+        top: 13rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 8rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 92%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 42%;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 28%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 0.6rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 30%;
+        
+    }
+    .boccer{
+        margin-top:-1rem;
+    }
+    .bocer{
+        margin-top: 12%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 93%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 16rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:15rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 11rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 80%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (min-width:461px) and (max-width:465px){
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:100%;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 5rem;
+        width: 33rem;
+        height: 23rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -23rem;
+        left: 10rem;
+        width: 35rem; 
+        height: 22rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100%;
+        height:60%;
+        background-color: var(--White);
+    }
+    #form{
+        margin-top: 27rem;
+        margin-left: 25rem;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 14rem;
+        margin-left: 6rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.2rem;
+        left: 7.2rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.5rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 35rem;
+        left: 7.2rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:38rem;
+        top: 13rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 8rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 92%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 44%;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 28%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 0.6rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 30%;
+        
+    }
+    .boccer{
+        margin-top:-1rem;
+    }
+    .bocer{
+        margin-top: 12%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 93%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 16rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:15rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 11rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 80%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (min-width:465px) and (max-width:475px){
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:100%;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 5rem;
+        width: 33rem;
+        height: 23rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -23rem;
+        left: 10rem;
+        width: 35rem; 
+        height: 22rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100%;
+        height:60%;
+        background-color: var(--White);
+    }
+    #form{
+        margin-top: 27rem;
+        margin-left: 25rem;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 14rem;
+        margin-left: 6rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.2rem;
+        left: 7.2rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.5rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 35rem;
+        left: 7.2rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:38rem;
+        top: 13rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 8rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 85%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 41%;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4.4rem;
+        font-size: 1.5rem;
+        width: 28%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 28%;
+        
+    }
+    .boccer{
+        margin-top:2rem;
+    }
+    .bocer{
+        margin-top: 12%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 87%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 16rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:15rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 11rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 86%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen  and (min-width:475px)and (max-width:496px) {
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:100%;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 5rem;
+        width: 33rem;
+        height: 23rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -23rem;
+        left: 10rem;
+        width: 35rem; 
+        height: 22rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100%;
+        height:60%;
+        background-color: var(--White);
+    }
+    #form{
+        margin-top: 27rem;
+        margin-left: 25rem;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 14rem;
+        margin-left: 6rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.2rem;
+        left: 7.2rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.5rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 35rem;
+        left: 7.2rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:38rem;
+        top: 13rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 8rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 92%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 40%;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 28%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 0.6rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 30%;
+        
+    }
+    .boccer{
+        margin-top:-1rem;
+    }
+    .bocer{
+        margin-top: 12%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 93%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 16rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:15rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 11rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 80%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen  and (min-width:496px)and (max-width:501px) {
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:100%;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 5rem;
+        width: 33rem;
+        height: 23rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -23rem;
+        left: 10rem;
+        width: 35rem; 
+        height: 22rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100%;
+        height:60%;
+        background-color: var(--White);
+    }
+    #form{
+        margin-top: 27rem;
+        margin-left: 25rem;
+    }
+    label{
+        font-size: 1.5rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 14rem;
+        margin-left: 6rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.2rem;
+        left: 7.2rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.5rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 35rem;
+        left: 7.2rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:38rem;
+        top: 13rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 8rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 92%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        width: 38%;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 28%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 0.6rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 30%;
+        
+    }
+    .boccer{
+        margin-top:-1rem;
+    }
+    .bocer{
+        margin-top: 12%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 93%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 16rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:15rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 11rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 80%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width:541px) {
+    .boccer{
+        margin-top: 19%;
+    }
+    
+}
+@media screen and (min-width:501px) and (max-width:552px) {
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:100%;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+    }
+    .image{
+        position: relative;
+        top: 16rem;
+        left: 5rem;
+        width: 36rem;
+        height: 23rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -23rem;
+        left: 10rem;
+        width: 38rem; 
+        height: 22rem;
+       
+    }
+    body{
+        overflow-x: hidden;
+     }
+     .div-2{
+        width: 100%;
+        height:60%;
+        background-color: var(--White);
+    }
+    #form{
+        margin-top: 27rem;
+        margin-left: 25rem;
+    }
+    label{
+        font-size: 2rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    
+    #form{
+        margin-top: 14rem;
+        margin-left: 6rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.4rem;
+        left: 7.5rem;
+        top: 6rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 1.7rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 35rem;
+        left: 7.2rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:40rem;
+        top: 13rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    
+    .imager{
+    
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 18rem;
+    left: 8rem;
+    z-index: 12;
+    }
+    .input-control input{
+        width: 92%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+        border-radius: 0.8rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 23%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: -0.1%;
+        width: 21%;
+        
+    }
+    .boccer{
+        margin-top:10%;
+    }
+    .bocer{
+        margin-top: 3%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 93%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .complete{
+        margin-left: 22rem;
+        margin-top: 15rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:19rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 16rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 14rem;
+        margin-bottom: 3rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 80%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (min-width:552px) and  (max-width:584px){
+    .boccer{
+        margin-top: 6%;
+    }
+    .box-1{
+        width: 45%;
+    }
+}
+@media screen and (min-width:554px)and  (max-width:611px) {
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+    .div-1{
+        width:100%;
+       /* height: 60rem;*/
+        height: 30rem;
+        
+       background-image: url(./images/bg-main-desktop.png);
+    }
+ body{
+    overflow-x: hidden;
+ }
+ .div-2{
+    width: 100%;
+    height:60%;
+    background-color: var(--White);
+}
+#form{
+    margin-top: 27rem;
+    margin-left: 25rem;
+}
+label{
+    font-size: 2rem;
+    color: var(--Verydarkviolet);
+    letter-spacing: 0.2rem;
+}
+.image{
+    position: relative;
+    top: 16rem;
+    left: 5rem;
+    width: 41rem;
+    height: 23rem;
+    z-index: 5;
+}
+.imagers{
+    position: relative;
+    top: -23rem;
+    left: 10rem;
+    width: 44rem; 
+    height: 22rem;
+   
+}
+#form{
+    margin-top: 14rem;
+    margin-left: 6rem;
+}
+h1{
+    position: relative;
+    font-size: 2.8rem;
+    left: 8.5rem;
+    top: 6rem;
+    z-index: 6;
+    color: var(--White);
+}
+.jane{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color:var(--White) ;
+    font-family: sans-serif;
+}
+.zero{
+    color: var(--White);
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.flexa-container{
+    display: flex;
+    flex-direction: row;
+    position:absolute ;
+    top: 35rem;
+    left: 8rem;
+    gap: 12rem;
+    z-index: 5;
+}
+.zeros{
+    position: absolute;
+    left:44rem;
+    top: 14rem;
+    color: var(--White);
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+}
+.imager{
+
+    position: absolute;
+width: 35px;
+height: 35px;
+top: 18rem;
+left: 8rem;
+z-index: 10;
+}
+.input-control input{
+    width: 92%;
+    height: 6.2rem;
+    border-radius: 0.5rem;
+    margin-top: 1%;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+}
+.flexar-container{
+    float: left;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: -5rem;
+}
+.box-1{
+    width: max-content;
+    float: left;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    
+
+    
+}
+.box-2{
+    width: fit-content;
+    float: left;
+    margin-left: -4rem;
+    font-size: 1.5rem;
+    width: 25%;
+    
+}
+.box-3{
+    width: fit-content;
+    float: left;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    width: 25%;
+    margin-top: -1%;
+    width: 30%;
+    
+}
+.boccer{
+    margin-top:9%;
+}
+.bocer{
+    margin-top: 3%;
+}
+.btn-primary{
+    margin-top: 16rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    padding: 1.8rem;
+    width: 93%;
+    height: 30%;
+    border: none;
+    color: var(--White);
+    border-radius: 0.8rem;
+    background-color: var(--Verydarkviolet);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.complete{
+    margin-left: 22rem;
+    margin-top: 15rem;
+    width: 11rem;
+    height: 11rem;
+}
+h2{
+    margin-left:19rem ;
+    margin-top: 2rem;
+    text-transform: uppercase;
+   font-family: sans-serif;
+   color:var(--Verydarkviolet);
+   letter-spacing: 0.2rem;
+   font-weight: bold;
+}
+h3{
+    margin-left: 16rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+ font-weight: 700;
+  color: var(--Lightgrayishviolet);
+}
+.buttons-div{
+    margin-top: 3rem;
+    margin-left: 14rem;
+    margin-bottom: 3rem;
+}
+.btns{
+    padding: 1.8rem;
+    width: 80%;
+    height: 30%;
+    border: none;
+    background-color:var(--Verydarkviolet);
+    color: var(--White);
+    border-radius: 0.8rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+}
+@media screen  and (min-width:611px)and (max-width:761px) {
+    .flexcontainer{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+ 
+    .div-1{
+        width:100vw;
+       /* height: 60rem;*/
+        height: 60%;
+        
+       background-image: url(./images/bg-main-desktop.png);
+       background-size: cover;
+    }
+    .div-2{
+        width: 100vw;
+        height:70%;
+        background-color: var(--White);
+    }
+    #form{
+        margin-top: 27rem;
+        margin-left: 25rem;
+    }
+    label{
+        font-size: 2rem;
+        color: var(--Verydarkviolet);
+        letter-spacing: 0.2rem;
+    }
+    .image{
+        position: relative;
+        top: 28rem;
+        left: 7rem;
+        width: 41rem;
+        height: 23rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -11rem;
+        left: 22rem;
+        width: 41rem; 
+        height: 23rem;
+       
+    }
+    #form{
+        margin-top: 8rem;
+        margin-left: 6rem;
+    }
+    h1{
+        position: relative;
+        font-size: 2.8rem;
+        left: 10.3rem;
+        top: 16rem;
+        z-index: 6;
+        color: var(--White);
+    }
+    .jane{
+        text-transform: uppercase;
+        font-size: 2rem;
+        color:var(--White) ;
+        font-family: sans-serif;
+    }
+    .zero{
+        color: var(--White);
+        font-family: sans-serif;
+        font-size: 2rem;
+    }
+    .flexa-container{
+        display: flex;
+        flex-direction: row;
+        position:absolute ;
+        top: 46rem;
+        left: 10rem;
+        gap: 12rem;
+        z-index: 5;
+    }
+    .zeros{
+        position: absolute;
+        left:54rem;
+        top: 26rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    .imager{
+   
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 29rem;
+    left: 10rem;
+    z-index: 10;
+    }
+    .input-control input{
+        width: 92%;
+        height: 6.2rem;
+        border-radius: 0.5rem;
+        margin-top: 1%;
+        font-size: 2rem;
+    }
+    .flexar-container{
+        float: left;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        gap: -5rem;
+    }
+    .box-1{
+        width: max-content;
+        float: left;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+    
+        
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: 1%;
+        
+    }
+    .boccer{
+        margin-top:3%;
+    }
+    .bocer{
+        margin-top: 3%;
+    }
+    .btn-primary{
+        margin-top: 16rem;
+    }
+    .btn{
+        padding: 1.8rem;
+        width: 93%;
+        height: 30%;
+        border: none;
+        color: var(--White);
+        border-radius: 0.8rem;
+        background-color: var(--Verydarkviolet);
+    }
+    .complete{
+        margin-left: 30rem;
+        margin-top: 7rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:26rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 20rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 700;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 17rem;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 80%;
+        height: 30%;
+        border: none;
+        background-color:var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.8rem;
+    }
+
+  
+}
+@media screen and (min-width:641px) and (max-width:681px) {
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 27%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: 1%;
+        width: 27%;
+        margin-top: 0.1%;
+        
+    }
+    .boccer{
+        margin-top: 8%;
+    }
+    .bocer{
+        margin-top: 4%;
+    }
+    
+}
+@media screen and (min-width:611px) and (max-width:641px) {
+    .image{
+        position: relative;
+        top: 29rem;
+        left: 7rem;
+        width: 41rem;
+        height: 23rem;
+        z-index: 5;
+    }
+    .imagers{
+        position: relative;
+        top: -11rem;
+        left: 22rem;
+        width: 38rem; 
+        height: 23rem;
+       
+    }
+    .zeros{
+        position: absolute;
+        left:52rem;
+        top: 26rem;
+        color: var(--White);
+        font-family: sans-serif;
+        letter-spacing: 0.2rem;
+    }
+    .imager{
+   
+        position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 31rem;
+    left: 10rem;
+    z-index: 10;
+    }
+    .box-2{
+        width: fit-content;
+        float: left;
+        margin-left: -4rem;
+        font-size: 1.5rem;
+        width: 25%;
+        
+    }
+    .box-3{
+        width: fit-content;
+        float: left;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        width: 25%;
+        margin-top: 1%;
+        width: 25%;
+        margin-top: 0.1%;
+        
+    }
+    .boccer{
+        margin-top: 12%;
+    }
+    .complete{
+        margin-left: 24rem;
+        margin-top: 7rem;
+        width: 11rem;
+        height: 11rem;
+    }
+    h2{
+        margin-left:20rem ;
+        margin-top: 2rem;
+        text-transform: uppercase;
+       font-family: sans-serif;
+       color:var(--Verydarkviolet);
+       letter-spacing: 0.2rem;
+       font-weight: bold;
+    }
+    h3{
+        margin-left: 15rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+     font-weight: 900;
+      color: var(--Lightgrayishviolet);
+    }
+    .buttons-div{
+        margin-top: 3rem;
+        margin-left: 10rem;
+    }
+    .bocer{
+        margin-top: 5%;
+    }
+    .btns{
+        padding: 1.8rem;
+        width: 80%;
+        height: 30%;
+        border: none;
+        background-color: var(--Verydarkviolet);
+        color: var(--White);
+        border-radius: 0.4rem;
+    }
+}
